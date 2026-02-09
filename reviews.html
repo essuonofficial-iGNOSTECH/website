@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reviews | PurrfectPaws</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+      url("https://images.unsplash.com/photo-1592194996308-7b43878e84a6");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 0;
+    }
+
+    .review-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      height: 100%;
+    }
+
+    .stars {
+      color: #f1c40f;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">PurrfectPaws</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#catNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="catNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="reviews.html">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center mt-5">
+  <div class="container">
+    <h1 class="fw-bold">What Our Customers Say</h1>
+    <p class="lead">Real reviews from real cat lovers 🐾</p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="mt-3">
+            “The cat bed is unbelievably soft. My cat sleeps in it all day!”
+          </p>
+          <h6 class="fw-bold mt-3">– Sarah M.</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="mt-3">
+            “Best online cat store I’ve used. Fast delivery and great quality.”
+          </p>
+          <h6 class="fw-bold mt-3">– Daniel K.</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="review-card">
+          <div class="stars">★★★★☆</div>
+          <p class="mt-3">
+            “The toys are amazing. My kitten never gets bored anymore.”
+          </p>
+          <h6 class="fw-bold mt-3">– Amanda L.</h6>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="mt-3">
+            “PurrfectPaws products feel premium. Worth every dollar!”
+          </p>
+          <h6 class="fw-bold mt-3">– Michael T.</h6>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="mt-3">
+            “My vet even recommended their feeding bowls. Love this brand!”
+          </p>
+          <h6 class="fw-bold mt-3">– Grace A.</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="bg-dark text-white text-center py-3">
+  © 2026 PurrfectPaws. All Rights Reserved.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
